@@ -43,6 +43,6 @@ func main() { // função principal
 	fmt.Printf("String: %v\n", s)
 
 	const idade = 18   // constante não pode ser alterada, por exemplo não podendo atribuir na sequencia //idade = 19
-	fmt.Println(idade) // pq ela já foi atribuida como 18
+	fmt.Println(idade) // pq ela já foi atribuida como 18x``
 
 }
