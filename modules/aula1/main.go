@@ -1,17 +1,18 @@
 package main // pacote principal
 
 import ( // aqui a importação de outros pacotes
-	"fmt"
+	print "fmt" // é possivel definir um apelido para os pacotes importados adicionando um nome antes do pacote
 	"strings"
 )
 
 func main() { // função principal
-	fmt.Println("Hello World") // aqui a função Println do pacote fmt --> printa no terminal um valor
+
+	print.Println("Hello World") // aqui a função Println do pacote fmt --> printa no terminal um valor
 
 	result := strings.Split("Eduardo", "") // salva o valor neste formato: [E d u a r d o]
-	fmt.Println(result)
+	print.Println(result)
 
 	result2 := strings.Split("Maça, Banana, Uva", ",") // salva o valor neste formato: [Maça Banana Uva]
-	fmt.Println(result2)
+	print.Println(result2)
 
 }
