@@ -16,3 +16,5 @@ func main() { // função principal
 	print.Println(result2)
 
 }
+
+// para compilar o código podemos usar:  "go build <nome e endereço do arquivo>"
