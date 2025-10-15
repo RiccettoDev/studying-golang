@@ -1,6 +1,14 @@
 version: "3.9"
 
 services:
+  go-app:
+    container_name: studying-golang
+    build: .
+    ports:
+      - "8088:8088"
+    depends_on:
+      - go_db
+
   go_db:
     container_name: fo_db
     image: postgres:12
