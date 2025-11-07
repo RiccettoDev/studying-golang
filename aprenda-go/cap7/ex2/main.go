@@ -17,7 +17,7 @@ import (
 )
 
 func main() {
-	for i := 65; i <= 122; i++ {
+	for i := 65; i <= 122; i++ { // até 90 se for apenas as letras maiusculas e 122 caso queira maiusculas e minusculas
 		fmt.Println(i)
 		for x := 0; x < 3; x++ {
 			fmt.Printf("%#U\n", i)
