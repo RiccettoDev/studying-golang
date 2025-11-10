@@ -17,5 +17,5 @@ func main() {
 	// por exemplo aqui colocando b dentro de int() convertemos o tipo de hotdog para int...
 	fmt.Printf("%v\n", x)
 
-	fmt.Println(x == b) // aqui popositalmente estamos deixando assim, pois a ide informa o erro de que os tipos são diferentes nesta operação
+	//fmt.Println(x == b) // aqui propositalmente estamos deixando assim, pois a ide informa o erro de que os tipos são diferentes nesta operação
 }
