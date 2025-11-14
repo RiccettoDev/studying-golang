@@ -13,6 +13,12 @@ func main() {
 	x = helloWord()
 
 	fmt.Println(x)
+
+	y := func() {
+		fmt.Println("Atribuindo de outra forma")
+	}
+
+	y()
 }
 
 func helloWord() string {
